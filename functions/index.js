@@ -72,7 +72,7 @@ app.get('/api/read',(req,res) => {
                     const profile = new Profile(
                         doc.id,
                         doc.data().name,
-                        doc.data().picture,
+                        doc.data().ImgUrl,
                         doc.data().address,
                         doc.data().email,
                         doc.data().phone

@@ -1,8 +1,8 @@
 class Profile {
-    constructor(id,name,picture,address,email,phone){
+    constructor(id,name,ImgUrl,address,email,phone){
         this.id = id;
         this.name = name;
-        this.picture = picture;
+        this.ImgUrl = ImgUrl;
         this.address = address;
         this.email = email;
         this.phone = phone;
